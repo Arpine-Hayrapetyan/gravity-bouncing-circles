@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+        }
+
+        canvas {
+            display: block;
+        }
+
+        #restart-button {
+            position: absolute;
+            padding: 15px;
+            border-radius: 16px;
+            font-size: 20px;
+            background: #3661cd;
+            border: none;
+            color: white;
+            top: 20px;
+            right: 20px;
+            cursor: pointer;
+        }
+
+        #restart-button:hover {
+            background: #617fcc;
+        }
+
+    </style>
+    <title>Gravity Bouncing Circles</title>
+</head>
+
+<body>
+<button id="restart-button">
+    restart
+</button>
+<canvas id="canvas"></canvas>
+</body>
+</html>
+<script src="./dist/main.js"></script>
